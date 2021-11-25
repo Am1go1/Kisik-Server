@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kisik.DataAccess.Core.Enums
 {
-    class VirtualExpenseStatusRto
+    public class VirtualExpenseStatusRto
     {
 
     }

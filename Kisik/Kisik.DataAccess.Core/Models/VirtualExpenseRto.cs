@@ -7,7 +7,7 @@ using Kisik.DataAccess.Core.Enums;
 namespace Kisik.DataAccess.Core.Models
 {
     [Table("VirtualExpense")]
-    class VirtualExpenseRto
+    public class VirtualExpenseRto
     {
         [Key] public int Id { get; set; }
         public float Cost { get; set; }

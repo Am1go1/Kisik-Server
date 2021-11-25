@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Kisik.DataAccess.Core.Models
 {
     [Table("AcceptExpense")]
-    class AcceptExpenseRto
+    public class AcceptExpenseRto
     {
         [Key] public int Id { get; set; }
         public int AuthorId { get; set; }

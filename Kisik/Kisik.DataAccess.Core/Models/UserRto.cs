@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Kisik.DataAccess.Core.Models
 {
     [Table("User")]
-    class UserRto
+    public class UserRto
     {
         #region Главные поля
         [Key] public int Id { get; set; }
