@@ -12,7 +12,7 @@ namespace Albina.BusinessLogic.Core.Interfaces
         Task<UserInformationBlo> Register(UserIdentityBlo userIdentityBlo);
         Task<UserInformationBlo> Auth(UserIdentityBlo userIdentityBlo);
         Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo, UserIdentityBlo userIdentityBlo);
-        Task<UserInformationBlo> Get();
+        Task<UserInformationBlo> Get(int userId);
         Task<bool> DoesExist(int numberPrefix, int number);
     }
 }
