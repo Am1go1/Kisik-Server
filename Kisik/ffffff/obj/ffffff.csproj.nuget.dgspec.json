@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\ffffff\\ffffff.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\ffffff\\ffffff.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\ffffff\\ffffff.csproj",
+        "projectName": "ffffff",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\ffffff\\ffffff.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\ffffff\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj"
+              },
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess\\Kisik.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess\\Kisik.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj",
+        "projectName": "Kisik.DataAccess.Core",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess\\Kisik.DataAccess.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess\\Kisik.DataAccess.csproj",
+        "projectName": "Kisik.DataAccess",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess\\Kisik.DataAccess.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\Kisik-Server\\Kisik\\Kisik.DataAccess.Core\\Kisik.DataAccess.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

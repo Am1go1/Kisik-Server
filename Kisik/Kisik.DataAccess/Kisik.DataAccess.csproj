@@ -111,12 +111,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Kisik.DataAccess.Core\Kisik.DataAccess.Core.csproj">
-      <Project>{6DCFE11D-8D39-4274-A8F3-5D93C02B7E6F}</Project>
-      <Name>Kisik.DataAccess.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="DBContexts\AlbinaContext.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -118,19 +118,5 @@
     <Compile Include="AutoMapperProfiles\BusinessLogicProfile.cs" />
     <Compile Include="AutoMapperProfiles\Service\UserService.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Albina.BusinessLogic.Core\Albina.BusinessLogic.Core.csproj">
-      <Project>{93AC2006-A7B7-42BB-A282-F2CC9D260FC9}</Project>
-      <Name>Albina.BusinessLogic.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Kisik.DataAccess.Core\Kisik.DataAccess.Core.csproj">
-      <Project>{6DCFE11D-8D39-4274-A8F3-5D93C02B7E6F}</Project>
-      <Name>Kisik.DataAccess.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Shareds\Shareds.csproj">
-      <Project>{7C9B0117-4F56-46E9-950C-BDF2AFD8EFA4}</Project>
-      <Name>Shareds</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
